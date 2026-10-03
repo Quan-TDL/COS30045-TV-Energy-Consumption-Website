@@ -1,0 +1,92 @@
+/* Navigation bar */
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+/* Power logo */
+
+nav img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Navigation links */
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+    padding: 10px 15px;
+    margin-left: 10px;
+}
+
+/* Mouse-over effect */
+
+nav a:hover {
+    background-color: #e8f5e9;
+}
+
+/* Active page */
+
+nav a.active {
+    background-color: #1b8f3a;
+    color: #ffffff;
+}
+
+/* General page styling */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222222;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    color: #1b8f3a;
+}
+
+h2 {
+    color: #1b8f3a;
+}
+
+/* FAQ */
+
+.faq-answer {
+    display: none;
+}
+
+.faq-question {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: none;
+    background-color: #ffffff;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.faq-question:hover {
+    background-color: #e8f5e9;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222222;
+    color: #ffffff;
+    margin-top: 40px;
+}
