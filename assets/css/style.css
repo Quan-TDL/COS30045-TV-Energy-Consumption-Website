@@ -90,3 +90,77 @@ footer {
     color: #ffffff;
     margin-top: 40px;
 }
+
+
+
+/* Data Story Header */
+
+.story-header {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.story-header p {
+    font-size: 18px;
+    color: #555555;
+}
+
+
+/* Data Story Sections */
+
+.story-section {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.story-section p {
+    line-height: 1.6;
+}
+
+
+/* Data Story Charts */
+
+.story-chart {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.story-chart img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.story-chart figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555555;
+}
+
+
+/* Data Story Transition */
+
+.story-transition {
+    text-align: center;
+    background-color: #e8f5e9;
+    padding: 25px;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+
+
+/* Data Story Recommendation */
+
+.story-recommendation {
+    background-color: #e8f5e9;
+    padding: 25px;
+    border-left: 5px solid #1b8f3a;
+    margin-top: 20px;
+}
+
+.story-recommendation h3 {
+    margin-top: 0;
+}
